@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.myBtn{
+    @apply w-32 h-14 m-2 text-white
+     font-bold text-2xl rounded-xl
+     shadow-lg active:translate-x-2 
+     active:translate-y-2 transition-all 
+     duration-300 shadow-slate-600 
+     active:shadow-none ;
+}
+.hoverA{
+    @apply px-4 py-2 hover:bg-black transition-all ease-in-out duration-200 rounded-full text-black hover:text-white;
+}
