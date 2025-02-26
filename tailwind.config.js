@@ -8,6 +8,9 @@ module.exports = {
       fontFamily:{
         myfont:[
           "Playwrite IT Moderna", "serif"
+        ],
+        pop:[
+          "Poppins","serif"
         ]
       },
       textColor:{
